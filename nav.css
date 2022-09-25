@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: #FCF9F8;
+    
+}
+.side-nav {
+    position: absolute;
+    width: 337px;
+    height: 1518px;
+    left: 0px;
+    top: 0px;
+    background: #0C1015;
+}
+.logo h1 {
+    width: 133px;
+    height: 43px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.2em;
+    color: #E9BCA1;
+    margin-left: 72px;
+    margin-right: 132px;
+}
+.logo img {
+    margin-left: 78.5px;
+    margin-top:22px;
+    margin-right: 138.5px;
+    width: 120px;
+    height: 55.17px;
+}
+
+
+.main-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;    
+    position: absolute;
+    width: 194px;
+    height: 940px;
+    left: 72px;
+    top: 170px;
+    font-family:  'Open Sans', sans-serif;
+
+     
+}
+
+.main-side .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+   
+}
+.content-1 {
+    width: 165px;
+    height: 193px;
+   
+}
+.content-2 {
+    width: 130px;
+    height: 193px;
+    
+}
+.content-3 {
+    width: 194px;
+    height: 305px;
+    
+}
+.content-4 {
+    width: 94px;
+    height: 81px;
+
+}
+
+.content-3 .lien .dump1 {
+   margin-left: 57px;
+   
+}
+.content-3 .lien .dump2 {
+    margin-left: 78px;
+    
+}
+.content-3 .lien .dump3 {
+    margin-left: 50.3px;
+   
+}
+.content-3 .lien .dump4 {
+    margin-left: 68.4px;
+   
+}
+   
+/**/
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+.text-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    padding-bottom: 24px;
+    color: #FCF9F8;
+
+}
+
+.main-side .nav-links .lien  {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 200px;
+    height: 24px;
+    
+    
+}
+.main-side .nav-links .lien  a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.main-side .nav-links .lien .trash {
+   display: block;
+   align-items: flex-end;
+}
+.side-nav a:hover {
+    color: #D27842;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 157px;
+    left: 0px;
+    top: 1384px;   
+    background: #3a5e8b;
+}
